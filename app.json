@@ -1,0 +1,85 @@
+{
+  "name": "PythonTG-Bot",
+  "description": "A simple Telelgram Bot",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/arcane-8/python-telegram-bot",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "BOT NAME",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "TG BOT API",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "TG BOT HASH",
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "BOT SESSION",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "BOT TOKEN",
+      "value": ""
+    },
+    "COMMAND_HAND_LER": {
+      "description": "BOT CMD HANDLER",
+      "value": ".",
+      "required": false
+    },
+    "ENV": {
+      "description": "FOR BUILDS",
+      "value": "ANYTHING",
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "HEROKU API",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "HEROKU APP NAME",
+      "value": "",
+      "required": false
+    },
+    "TZ": {
+      "description": "TIMEZONE",
+      "value": "Asia/Kolkata",
+      "required": false
+    },
+    "EXTERNAL_REPO": {
+      "description": "FOR MODE CMD",
+      "value": "True",
+      "required": false
+    },
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
