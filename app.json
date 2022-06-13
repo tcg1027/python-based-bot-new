@@ -1,6 +1,6 @@
 {
-  "name": "PythonTG-Bot",
-  "description": "A simple Telelgram Bot",
+  "name": "Pythonbot",
+  "description": "A simple Telegram Bot",
   "logo": "https://telegra.ph/file/3069cf26db7bbe389ef55.jpg",
   "keywords": [
     "plugin",
