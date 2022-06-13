@@ -1,6 +1,5 @@
 aiofiles
 aiohttp
-aria2
 apscheduler
 cairosvg
 cloudscraper
