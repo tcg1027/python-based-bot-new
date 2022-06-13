@@ -14,26 +14,31 @@
     "ALIVE_NAME": {
       "description": "BOT NAME",
       "value": ""
+      "required": false
     },
     "APP_ID": {
       "description": "TG BOT API",
       "value": ""
+      "required": false
     },
     "API_HASH": {
       "description": "TG BOT HASH",
       "value": ""
+      "required": false
     },
     "STRING_SESSION": {
       "description": "BOT SESSION",
       "value": ""
+      "required": false
     },
     "TG_BOT_TOKEN": {
       "description": "BOT TOKEN",
       "value": ""
+      "required": false
     },
     "COMMAND_HAND_LER": {
       "description": "BOT CMD HANDLER",
-      "value": ".",
+      "value": "",
       "required": false
     },
     "ENV": {
@@ -63,8 +68,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "FOR REAL",
-      "value": "True",
-      "required": false
+      "value": "",
     }
   },
   "addons": [{
