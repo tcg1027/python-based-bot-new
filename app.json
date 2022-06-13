@@ -63,8 +63,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "FOR REAL",
-      "value": "True",
-      "required": false
+      "value": "",
     }
   },
   "addons": [{
